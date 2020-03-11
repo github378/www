@@ -1,0 +1,50 @@
+/* header styles  */
+
+header {
+	height: 80px;
+	background-color: #E3E3E3;
+}
+header ul li {
+	display: inline-block;
+	margin-right: 20px;
+	line-height: 80px;
+}
+header ul a {
+	color: #000;
+}
+header a:hover li{
+	text-decoration: underline;
+}
+header ul {
+	text-align: right;
+}
+
+/* common styles */
+
+
+.online,
+.about-us,
+.contacts,
+.services,
+.doctors {
+	margin: 30px 0;
+}
+
+/* online.html file  styles */
+
+.online input {
+	margin-bottom: 20px;
+	display: block;
+}
+
+/* services.html file  styles */
+
+.services .item{
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	border: 1px solid black;
+	/*background-image: url(../images/doctor-background.jpg);*/
+	background-size: cover;
+	color: #000;
+}
